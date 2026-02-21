@@ -28,20 +28,6 @@ public:
 
     }
 };
-int main(){
-    Solution A;
-    vector<int> nums = {5,7,7,8,8,10};
-    int target = 8;
-    int mid;
 
-    vector<int> result = A.searchRange(nums, target);
-
-    cout << result[mid-1]<<" "<< result[mid];
-
-
-
-
-return 0;
-}
 
 
