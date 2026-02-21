@@ -25,18 +25,4 @@ public:
 
     }return -1;
 }
-
 };
-int main(){
-    Solution A;
-
-    vector<int> nums = {1,2,3,4,5};
-    int target = 3;
-
-    cout << A.search(nums, target);
-
-
-
-
-return 0;
-}
