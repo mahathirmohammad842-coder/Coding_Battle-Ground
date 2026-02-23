@@ -15,13 +15,5 @@ public:
             }
         }
         return start;
-
     }
 };
-int main(){
-Solution obj;
-vector<int>v={1,2,3,1};
-cout<<"Peak element:"<<obj.findPeakElement(v);
-return 0;
-
-}
